@@ -1,21 +1,15 @@
-# XINIX Events — Website Starter
+# XINIX Events Website
 
-A responsive, single-page English website for XINIX Events / DJ bookings. Built with plain HTML, CSS and JavaScript; no build step required.
+Responsive static website inspired by the approved XINIX neon concert reference.
 
-## Preview locally
-Open `index.html` in a browser.
+## Files
+- `index.html` — page content and navigation
+- `styles.css` — responsive black/cyan design and layouts
+- `script.js` — mobile menu and current year
+- `assets/hero-stage.jpg` — concert-stage hero artwork
 
-## Deploy to Netlify
-- Publish directory: `.`
-- Build command: leave blank
-- For continuous deployment, push these files to a GitHub repository and connect that repository in Netlify.
-- `.netlify/` is intentionally ignored by Git.
+## Netlify
+Publish directory: `.`  
+Build command: leave blank.
 
-## Before launch
-- Replace `hello@xinixevents.com` with your confirmed business email.
-- Add real social media profile links.
-- Replace abstract hero art with licensed event photography if desired.
-- Add confirmed upcoming events and ticket links only when available.
-- Add a custom domain after choosing and registering one.
-
-This starter intentionally does not invent event dates, artists, venues, ticket prices, or social handles.
+Before public launch, replace `hello@xinixevents.com` with the confirmed business email and add real social profiles/events when available.

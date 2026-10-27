@@ -3,76 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#08090d">
-  <meta name="description" content="XINIX Events — underground sound, unforgettable nights. DJ bookings, electronic music events and bespoke experiences in Amman, Jordan.">
-  <title>XINIX — Sound. Energy. Experience.</title>
+  <meta name="theme-color" content="#030506">
+  <meta name="description" content="XINIX Events — electronic music, unforgettable nights, DJ and artist bookings, and private experiences in Amman, Jordan.">
+  <title>XINIX EVENTS — Where Night Comes Alive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="XINIX home"><span class="brand-mark">X</span><span>XINIX<span class="brand-dot">.</span></span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <a class="brand" href="#home" aria-label="XINIX Events home">
+      <span class="brand-word">XINIX</span><span class="brand-sub">EVENTS</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#experiences">Experiences</a><a href="#events">Events</a><a href="#contact" class="nav-cta">Book XINIX <span>↗</span></a>
+      <a class="active" href="#events">Events</a>
+      <a href="#experiences">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-grid"></div>
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-content">
-        <p class="eyebrow"><span class="pulse"></span> AMMAN · JORDAN · BEYOND</p>
-        <h1>WE DON'T<br>JUST PLAY <em>MUSIC.</em><br>WE MOVE <span>PEOPLE.</span></h1>
-        <p class="hero-copy">Electronic music. Distinctive experiences. Nights that stay with you long after the last track.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#contact">LET'S CREATE A NIGHT <span>↗</span></a><a class="text-link" href="#experiences">Discover XINIX <span>↓</span></a></div>
+        <p class="eyebrow"><span class="live-dot"></span> AMMAN · JORDAN · BEYOND</p>
+        <h1>WHERE NIGHT<br>COMES <span>ALIVE</span></h1>
+        <div class="cyan-rule"></div>
+        <p class="hero-copy">Electronic music. Unforgettable nights.</p>
+        <a class="button" href="#experiences">EXPLORE XINIX <span>→</span></a>
       </div>
-      <div class="hero-visual" aria-label="Abstract neon blue event artwork">
-        <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orb orb-three"></div>
-        <div class="visual-ring ring-one"></div><div class="visual-ring ring-two"></div>
-        <div class="visual-word">X<span>!</span>NIX</div>
-        <div class="visual-caption"><span>IN SOUND WE TRUST</span><span>EST. AMMAN</span></div>
+      <div class="hero-bottomline"><span>SOUND</span><i></i><span>LIGHT</span><i></i><span>ENERGY</span><i></i><span>XINIX</span></div>
+    </section>
+
+    <section class="services" id="experiences" aria-label="XINIX services">
+      <a class="service-card" href="#contact">
+        <span class="service-icon waveform" aria-hidden="true"><svg viewBox="0 0 56 48"><path d="M4 24h5m4-10v20m7-28v36m7-25v14m7-20v26m7-17v8m7-14v20m4-10h5"/></svg></span>
+        <span class="service-text"><strong>LIVE EXPERIENCES</strong><i></i><small>Curated electronic music events with world-class production.</small></span>
+      </a>
+      <a class="service-card" href="#contact">
+        <span class="service-icon headphones" aria-hidden="true"><svg viewBox="0 0 56 48"><path d="M7 27v-5a21 21 0 0 1 42 0v5M7 25h8v16H9a5 5 0 0 1-5-5v-6a5 5 0 0 1 3-5Zm42 0h-8v16h6a5 5 0 0 0 5-5v-6a5 5 0 0 0-3-5Z"/></svg></span>
+        <span class="service-text"><strong>DJ &amp; ARTIST BOOKINGS</strong><i></i><small>Professional DJ and artist bookings for clubs, festivals, and brands.</small></span>
+      </a>
+      <a class="service-card" href="#contact">
+        <span class="service-icon layers" aria-hidden="true"><svg viewBox="0 0 56 48"><path d="m28 4 23 12-23 12L5 16 28 4Zm-23 20 23 12 23-12M5 32l23 12 23-12"/></svg></span>
+        <span class="service-text"><strong>PRIVATE EVENTS</strong><i></i><small>Tailored music experiences for exclusive and corporate occasions.</small></span>
+      </a>
+    </section>
+
+    <section class="about section" id="about">
+      <p class="section-label">ABOUT XINIX <span></span></p>
+      <div class="about-grid">
+        <h2>BUILT AROUND<br>THE <span>FEELING.</span></h2>
+        <p>XINIX brings together electronic music, atmosphere, and people to create nights that stay with you. Rooted in Amman and inspired by the global underground, we build experiences with intention—from intimate sessions to high-energy events.</p>
       </div>
-      <div class="hero-bottom"><span>INDEPENDENT SOUND CULTURE</span><span>SCROLL TO EXPLORE ↓</span><span>31°57' N / 35°56' E</span></div>
     </section>
 
-    <section class="ticker" aria-label="XINIX services"><div class="ticker-track"><span>AFRO HOUSE</span><b>✳</b><span>MELODIC TECHNO</span><b>✳</b><span>LIVE EXPERIENCES</span><b>✳</b><span>DJ BOOKINGS</span><b>✳</b><span>AFRO HOUSE</span><b>✳</b><span>MELODIC TECHNO</span><b>✳</b><span>LIVE EXPERIENCES</span><b>✳</b><span>DJ BOOKINGS</span><b>✳</b></div></section>
-
-    <section class="section about" id="about">
-      <div class="section-kicker"><span>01 / WHO WE ARE</span><span class="kicker-line"></span></div>
-      <div class="about-layout"><h2>BUILT FOR<br>THE <span>FEELING.</span></h2><div class="about-copy"><p class="lead">XINIX is an independent events and music experience concept built around one thing: <strong>energy that connects people.</strong></p><p>From intimate sessions to high-impact nights, we bring together sound, atmosphere and people to create something that feels different. Rooted in Amman. Inspired by the global underground.</p><a class="text-link" href="#contact">MAKE SOMETHING HAPPEN <span>↗</span></a></div></div>
-      <div class="stats"><div><strong>01</strong><span>ONE DISTINCT VISION</span></div><div><strong>∞</strong><span>WAYS TO FEEL THE SOUND</span></div><div><strong>24/7</strong><span>CREATIVE ENERGY</span></div></div>
-    </section>
-
-    <section class="section experiences" id="experiences">
-      <div class="section-kicker"><span>02 / WHAT WE DO</span><span class="kicker-line"></span></div>
-      <div class="section-heading"><h2>THE NIGHT IS<br><span>YOURS.</span></h2><p>From the first beat to the final lights, we build experiences with intention.</p></div>
-      <div class="service-grid">
-        <article class="service-card service-featured"><div class="card-index">01</div><div class="service-icon">◉</div><div><h3>EVENTS &<br>PRODUCTIONS</h3><p>Curated nights, venue collaborations and distinctive event concepts designed to bring the right crowd together.</p></div><span class="card-arrow">↗</span></article>
-        <article class="service-card"><div class="card-index">02</div><div class="service-icon">⌁</div><div><h3>DJ BOOKINGS</h3><p>Soundtrack your venue, private event or brand experience with a carefully shaped musical journey.</p></div><span class="card-arrow">↗</span></article>
-        <article class="service-card"><div class="card-index">03</div><div class="service-icon">✳</div><div><h3>BRAND<br>EXPERIENCES</h3><p>Music-led collaborations, launches and activations with atmosphere at the centre.</p></div><span class="card-arrow">↗</span></article>
+    <section class="events section" id="events">
+      <p class="section-label">THE NEXT CHAPTER <span></span></p>
+      <div class="events-grid">
+        <div><h2>GOOD THINGS<br>ARE <span>IN MOTION.</span></h2><p>New sessions, new sounds, and new collaborations are in the works. Want to be part of what's next?</p><a class="button button-small" href="#contact">LET'S TALK <span>→</span></a></div>
+        <div class="event-panel"><span class="event-n">N</span><strong>NEXT FREQUENCY</strong><small>ANNOUNCEMENTS COMING SOON</small></div>
       </div>
     </section>
 
-    <section class="manifesto">
-      <div class="manifesto-glow"></div><p class="eyebrow">OUR POINT OF VIEW</p><h2>LESS NOISE.<br>MORE <span>MEANING.</span></h2><p>Great nights aren't measured in hours.<br>They're measured in the moments you remember.</p><div class="manifesto-stamp">XINIX<br><span>FEEL IT.</span></div>
-    </section>
-
-    <section class="section events" id="events">
-      <div class="section-kicker"><span>03 / THE NEXT CHAPTER</span><span class="kicker-line"></span></div>
-      <div class="events-layout"><div><h2>GOOD THINGS<br>ARE <span>IN MOTION.</span></h2><p>New sessions, new sounds and new collaborations are in the works. Want to be part of what's next?</p><a class="button button-outline" href="#contact">GET IN THE LOOP <span>↗</span></a></div><div class="event-placeholder"><div class="event-symbol">X</div><span class="event-label">NEXT FREQUENCY</span><span class="event-status"><i></i> ANNOUNCEMENTS COMING SOON</span></div></div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="contact-top"><p class="eyebrow">04 / START A CONVERSATION</p><h2>LET'S MAKE<br>IT <span>HAPPEN.</span></h2><p>Bookings, collaborations, venues or an idea you can't stop thinking about. We're listening.</p></div>
-      <div class="contact-bottom"><div><span class="contact-label">BASED IN</span><strong>AMMAN, JORDAN</strong></div><div><span class="contact-label">FOR BOOKINGS & COLLABS</span><a href="mailto:hello@xinixevents.com">HELLO@XINIXEVENTS.COM ↗</a></div><a class="contact-button" href="mailto:hello@xinixevents.com?subject=XINIX%20Booking%20Enquiry">CONTACT XINIX <span>↗</span></a></div>
+    <section class="contact section" id="contact">
+      <p class="section-label">CONTACT <span></span></p>
+      <div class="contact-grid"><h2>LET'S MAKE<br>IT <span>HAPPEN.</span></h2><div><p>Bookings, collaborations, venues or an idea you can't stop thinking about. We're listening.</p><p class="contact-location">BASED IN <strong>AMMAN, JORDAN</strong></p><a class="contact-link" href="mailto:hello@xinixevents.com">HELLO@XINIXEVENTS.COM ↗</a><small class="contact-note">Replace this placeholder email with your confirmed contact address before launch.</small></div></div>
     </section>
   </main>
 
-  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">X</span><span>XINIX<span class="brand-dot">.</span></span></a><span>INDEPENDENT SOUND CULTURE.</span><span>© <span id="year"></span> XINIX EVENTS</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <footer class="footer"><a class="brand brand-footer" href="#home"><span class="brand-word">XINIX</span><span class="brand-sub">EVENTS</span></a><span>SOUND · LIGHT · ENERGY · XINIX</span><span>© <span id="year"></span> XINIX EVENTS</span><a href="#home">BACK TO TOP ↑</a></footer>
   <script src="script.js"></script>
 </body>
 </html>
